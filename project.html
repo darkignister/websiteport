@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/project.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="project.html">My Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Slideshow to display my Projects-->
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <!--Project 1-->
+            <h2>Project 1: Custom Cards on EDOPRO</h2>
+            <p>Scripting and designing custom cards to be used in EDOPRO</p>
+            <p>Programming/Technology Used: Lua and SQL</p>
+            <img src="other/img1.png" alt="Project 1 Image">
+        </div>
+        <div class="mySlides">
+            <!--Project 2-->
+            <h2>Project 2: Text-Adventure Game</h2>
+            <p>A text-adventure game with battle and adventure systems</p>
+            <p>Programming/Technology Used: Java</p>
+            <img src="other/img2.png" alt="Project 2 Image">
+        </div>
+        <div class="mySlides">
+            <!--Project 3-->
+            <h2>Project 3: New-Tab</h2>
+            <p>A custom new tab with a clock and a quote button for Chrome</p>
+            <p>Programming/Technology Used: HTML, CSS, and JS</p>
+            <img src="other/img3.png" alt="Project 3 Image">
+        </div>
+        <!--Button to go forward and backward with the slideshow-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script src="js/project.js"></script>
+</body>
+</html>
+

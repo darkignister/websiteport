@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../other/bg.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 20px;
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav a[href="about.html"] {
+    border-bottom: 2px solid white;
+}
+/*A paragraph about me */
+.intro {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.intro h1{
+    font-size: 48px;
+    color: #ffffff;
+    animation: slideInRight 1s ease;
+}
+.intro p{
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0;
+    animation: fadeInRight 2s ease forwards;
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* The gif that appears on the screen */
+#centered-gif {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    animation: fadeInRight 1s ease forwards;
+    animation-delay: 0.5s;
+}
+/* Button to access my resume */
+.resume-button {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.resume-button .button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
