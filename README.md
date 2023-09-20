@@ -1,7 +1,7 @@
 # Website Portfolio
 A website portfolio created by Bahy Huynh\
 Fall2023 CS395 Midterm Project\
-[HOME PAGE](https://darkignister.github.io/websiteport/home.html)\
+[HOME PAGE](https://darkignister.github.io/websiteport/home.html)
 
 
 ## Features
