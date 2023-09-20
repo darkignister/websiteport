@@ -1,6 +1,9 @@
 # Website Portfolio
 A website portfolio created by Bahy Huynh\
-Fall2023 CS395 Midterm Project
+Fall2023 CS395 Midterm Project\
+[HOME PAGE](https://darkignister.github.io/websiteport/home.html)\
+
+
 ## Features
 * Home Page - Displays my name, occupation, credit to the background, and image of myself
 * About me Page - Display my name, interests, skills, and a button to access my resume
